@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/ecommerce-react/", // 👈 Este debe coincidir con el nombre de tu repo en GitHub
+  base: "/ecommerce-react/", // 👈 Asegúrate de que sea el nombre exacto de tu repositorio
 })
